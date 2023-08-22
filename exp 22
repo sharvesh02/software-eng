@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+int E,N,P,CC;
+printf("\n Program to find Cyclomatic Complexity:");
+printf("\n Enter the number of Edges in the flow graph:");
+scanf("%d",&E); 
+printf("\n Enter the number of Nodes in the flow graph:");
+scanf("%d",&N); 
+printf("\n Enter the number of Predicate Nodes in the flow graph:");
+scanf("%d",&P); 
+CC=E-N+(2*P);
+printf("\n The Cyclomatic Complexity of the flow graph is : %d", CC);
+}
